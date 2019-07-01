@@ -140,10 +140,9 @@ header h3 {
   padding-bottom: 40px;
 }
 #work img {
-    max-width: 350px;
+    width: 400px;
     height:auto;
     padding-bottom: 40px;
-    padding-right: 20px;
 }
 #work h3 {
     font-size: 24px;
