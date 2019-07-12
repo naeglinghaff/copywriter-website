@@ -88,21 +88,6 @@ header h3 {
   font-weight:bold;
   color: #91b383;
 }
-#icons {
-  font-family:'Roboto Slab', serif;
-  font-size: 24px;
-  padding-left: 0 0 50px 50px;
-  color: #f76d4d;
-  text-align: center;
-  align-items: center;
-  clear:both;
-}
-#icons img {
-    width: 200px;
-  }
-  #icons .full-width {
-    clear: both;
-  }
 /***** Divider *****/
 #divider {
   height: 200px;
