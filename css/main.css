@@ -3,22 +3,27 @@ body {
   font-family: 'Source Sans Pro', sans-serif;
   color: #2b2b2b;
 }
+
 #contact, #oldingham, #error, #bakermill, #emails {
-    height: 600px;
+  height: 600px;
 }
+
 /***** GRID *****/
 .full-width {
-    width: 1200px;
-    margin: 0 auto;
+  width: 1200px;
+  margin: 0 auto;
 }
+
 .half-width {
-    width: 600px;
-    float: left;
+  width: 600px;
+  float: left;
 }
+
 .third-width {
-    width: 400px;
-    float: left;
+  width: 400px;
+  float: left;
 }
+
 /***** HEADER *****/
 header {
   height: 750px;
@@ -26,38 +31,26 @@ header {
   background-size: cover;
   border-bottom: 2px solid #91b383;
 }
+
 header h1 {
-    color: #ffffff;
-    font-family: 'Roboto Slab', serif;
-    padding: 20px 0 65px 25px;
-    text-transform: uppercase;
-    font-weight: 400;
-  }
-nav {
-    float: right;
-    padding: 30px 25px;
+  color: #ffffff;
+  font-family: 'Roboto Slab', serif;
+  padding: 20px 0 65px 25px;
+  text-transform: uppercase;
+  font-weight: 400;
 }
-nav ul li{
-    display: inline-block;
-    font-family: 'Roboto Slab', serif;
-}
-nav ul li a {
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size:25px;
-    color: #ffffff;
-    padding-left: 40px;
-}
+
 header h2 {
-    width: 1200px;
-    clear: both;
-    font-family: 'Roboto Slab', serif;
-    font-size: 70px;
-    line-height: 90px;
-    color: #ffffff;
-    padding-top: 75px;
-    text-align: center;
+  width: 1200px;
+  clear: both;
+  font-family: 'Roboto Slab', serif;
+  font-size: 70px;
+  line-height: 90px;
+  color: #ffffff;
+  padding-top: 75px;
+  text-align: center;
 }
+
 header h3 {
   font-family: 'Roboto Slab', serif;
   font-size: 45px;
@@ -67,28 +60,52 @@ header h3 {
   width: 1200px;
   text-align: center;
 }
+
+/***** NAVIGATION *****/
+nav {
+  float: right;
+  padding: 30px 25px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  font-family: 'Roboto Slab', serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size:25px;
+  color: #ffffff;
+  padding-left: 40px;
+}
+
 /***** ABOUT *****/
 #about .full-width {
     padding: 30px 0;
 }
+
 #about h2 {
-    font-family:'Roboto Slab', serif;
-    font-size: 36px;
-    padding-left: 50px;
-    color: #91b383;
+  font-family:'Roboto Slab', serif;
+  font-size: 36px;
+  padding-left: 50px;
+  color: #91b383;
 }
+
 #about p {
-    font-size:21px;
-    color: #7f7f7f;
-    line-height: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
+  font-size:21px;
+  color: #7f7f7f;
+  line-height: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
-#about p span{
+
+#about p span {
   font-weight:bold;
   color: #91b383;
 }
-/***** Divider *****/
+
+/***** Divider for styling *****/
 #divider {
   height: 200px;
   background:url("../img/colour2.png");
@@ -97,6 +114,7 @@ header h3 {
   border-top: 1px solid #91b383;
   border-bottom: 1px solid #91b383;
 }
+
 #divider h2{
   font-family:'Roboto Slab', serif;
   font-size: 60px;
@@ -104,10 +122,13 @@ header h3 {
   padding-left: 50px;
   color: #ffffff;
 }
+
 #divider h2 span{
   font-family: 'Pacifico', cursive;
   font-weight: 400;
 }
+
+/***** Smaller colour divider for each section *****/
 .small-divider {
   height: 25px;
   background:url("../img/colour2.png");
@@ -116,28 +137,33 @@ header h3 {
   border-top: 1px solid #91b383;
   border-bottom: 1px solid #91b383;
 }
+
 /***** WORK *****/
 #work {
   text-align: center;
 }
+
 #work .third-width {
   padding-top: 40px;
   padding-bottom: 40px;
 }
+
 #work img {
-    width: 400px;
-    height:auto;
-    padding-bottom: 40px;
+  width: 400px;
+  height:auto;
+  padding-bottom: 40px;
 }
+
 #work h3 {
-    font-size: 24px;
-    color: #f76d4d;
-    font-family: 'Roboto Slab', serif;
-    line-height: 32px;
-    width: 500px;
-    padding: 75px 0 25px 0;
-    margin: 0 auto;
+  font-size: 24px;
+  color: #f76d4d;
+  font-family: 'Roboto Slab', serif;
+  line-height: 32px;
+  width: 500px;
+  padding: 75px 0 25px 0;
+  margin: 0 auto;
 }
+
 #work p {
   font-size: 21px;
   text-align: center;
@@ -146,6 +172,7 @@ header h3 {
   margin: 0 auto;
   color:#7f7f7f;
 }
+
 #work p span {
   color: #91b383;
   font-weight: bold;
@@ -153,9 +180,11 @@ header h3 {
   font-family: 'Pacifico', cursive;
   padding-bottom: 10px;
 }
-#work a{
+
+#work a {
   color:#91b383;
 }
+
 #oldingham p {
   font-size:21px;
   color: #7f7f7f;
@@ -165,66 +194,81 @@ header h3 {
   padding-bottom: 100px;
   text-align: left;
 }
+
 #emails img {
   width: 150px;
   padding: 50px 0 0 30px;
 }
+
+/***** FOOTER *****/
+
 /***** Contact *****/
 #contact {
   background-color: #F6F6F6;
 }
 
 #contact .full-width {
-    padding: 110px 0;
+  padding: 110px 0;
 }
+
 #contact img#contact-img {
-    margin-left: 25px;
-    border: 12px solid #ffffff;
+  margin-left: 25px;
+  border: 12px solid #ffffff;
 }
+
 #contact h2, #contact #email-header, #contact #socialmedia-header, #contact ul {
-    padding-left: 115px;
-    color: #91b383;
+  padding-left: 115px;
+  color: #91b383;
 }
+
 #contact #envelope {
-    padding: 0 10px 0 115px;
+  padding: 0 10px 0 115px;
 }
+
 #contact h2 {
-    font-family: 'Lora', serif;
-    font-size: 36px;
-    line-height: 44px;
-    color: #f76d4d;
+  font-family: 'Lora', serif;
+  font-size: 36px;
+  line-height: 44px;
+  color: #f76d4d;
 }
-#contact p{
+
+#contact p {
   font-size: 20px;
   color: #f76d4d;
   line-height: 21px;
   padding-left: 115px;
 }
-#contact #email-header{
-    font-size: 32px;
-    font-weight: normal;
-    line-height: 44px;
-    margin: -30px 0 5px 0;
+
+#contact #email-header {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 44px;
+  margin: -30px 0 5px 0;
 }
+
 #contact #socialmedia-header {
-    font-weight: bold;
-    font-size: 29px;
-    line-height: 44px;
-    margin: 40px 0 0 0;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 44px;
+  margin: 40px 0 0 0;
 }
+
 #contact a {
-    text-decoration: none;
-    color: #f76d4d;
-    font-weight: bold;
-    font-size: 28px;
+  text-decoration: none;
+  color: #f76d4d;
+  font-weight: bold;
+  font-size: 28px;
 }
+
 #contact ul {
-    list-style: none;
+  list-style: none;
 }
+
 #contact ul li {
-     display: inline-block;
+  display: inline-block;
 }
+
 #contact ul img {
-    font-size: 32px;
-    padding-right: 48px;
+  font-size: 32px;
+  padding-right: 48px;
 }
